@@ -7,7 +7,7 @@ Simple plugin stuff not much to talk about.
 Inits the plugin, nothing interesting.
 
 ## MyListener.java
-Spigot listener which does all the heavy lifting. 
+Our spigot listener. 
 
 Currently there are two types of events, single item events and all item events.
 
