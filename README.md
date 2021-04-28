@@ -15,4 +15,4 @@ In single item events, only the function lambda on the item that is being used i
 For instance, if I right-clicked while holding a sword, only the onclick lambda for the sword would be called.
 
 In poly item events, multiple item lambdas are called.
-For instance, if I died, a ondeath lambda would be called for each item in my inventory.
+For instance, if I died (`onEntityDeathEvent`), an `onEntityDeath` lambda would be called for each item in my inventory.
