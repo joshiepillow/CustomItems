@@ -1,0 +1,6 @@
+main: me.joshiepillow.CustomItems.Main
+name: CustomItems
+version: 0.0.0
+author: me
+description: Custom item handler plugin
+api-version: 1.16
