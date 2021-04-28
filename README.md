@@ -23,6 +23,7 @@ The core of the plugin.
 Important parts:
 - CustomItems basic constructor
 - CustomItems copy constructor
-- Assigned Functions
+- Lambda variables
+- setPersistentData(ItemStack i)
 
-Everything seems pretty self explanatory.
+Everything seems pretty self explanatory, but I'll add a brief overview. Create a new CustomItems, set its lambdas, and the use `setPersistentData` to add this behavior to an ItemStack. 
