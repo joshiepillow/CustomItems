@@ -16,3 +16,13 @@ For instance, if I right-clicked while holding a sword (`onPlayerInteractEvent`)
 
 In poly item events, multiple item lambdas are called.
 For instance, if I died (`onEntityDeathEvent`), an `onEntityDeathEvent` lambda would be called for each item in my inventory.
+
+## CustomItems.java
+The core of the plugin.
+
+Important parts:
+- CustomItems basic constructor
+- CustomItems copy constructor
+- Assigned Functions
+
+Everything seems pretty self explanatory.
